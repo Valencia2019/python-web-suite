@@ -18,6 +18,7 @@ Feature: Five test scenarios in one spec file
         Then the Delete button does not exist
         And there is a clickable Add Element button displayed
 
+    @chrome.browser
     Scenario: Forgot Password test
         Given the Forgot Password link is displayed and clickable
         When the Forgot Password link is clicked
