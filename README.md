@@ -12,6 +12,9 @@ This project requires python3 and pip be installed already. Please do so before 
 ## Running Testsuite from command line / terminal
 Type in `behave` and hit enter.
 
+## Device tagging at Feature level
+Currently the only device supported by this feature are androids. The tag that can be used for it is `android.device`. If you use this suite with a cloud (like SauceLabs), you can use their provided capabilities to change devices and browsers. This feature is currently untested. 
+
 ## Browser tagging at Scenario level
 Since this testsuite is so small, I implemented browser tagging at the scenario level. Available right now with this feature are `@chrome.browser` and `@safari.browser`. If a scenario is not tagged, the default will be Chrome. 
 
